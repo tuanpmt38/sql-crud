@@ -16,4 +16,7 @@ where city = 'Las Vegas';
 select customers.customerNumber, customers.customerName, orders.orderNumber, orders.status
 from customers
 left join orders
-on customers.customerNumber = orders.customerNumber 
+on customers.customerNumber = orders.customerNumber ;
+
+use product_manager;
+select * from products;
